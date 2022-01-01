@@ -41,7 +41,7 @@ public class AISpawner : MonoBehaviour
         if(time >= timeMax)
         {
             Transform ai = SpawnAI();
-            Vector3 pichenette = ai.forward * 5 + Vector3.up*5 ;
+            Vector3 pichenette = ai.forward * 20 + Vector3.up*10 ;
             AddPichenette(ai, pichenette);
             time = 0;
         }

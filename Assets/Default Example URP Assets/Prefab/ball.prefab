@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5292789777427083815}
   - component: {fileID: 5071528425885290648}
   - component: {fileID: 7077058993356544195}
+  - component: {fileID: -9200548119249334402}
   - component: {fileID: 5956999657042783741}
   m_Layer: 0
   m_Name: ball
@@ -82,6 +83,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &-9200548119249334402
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801380194741351093}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!135 &5956999657042783741
 SphereCollider:
   m_ObjectHideFlags: 0
